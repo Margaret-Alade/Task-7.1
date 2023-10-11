@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#define MODE 3;
+#define MODE 1;
 
 int main() {
 
@@ -26,7 +26,7 @@ int main() {
 	std::cin >> num2;
 	std::cout << '\n';
 	std::cout << "Результат сложения: " << add(num1, num2) << '\n';
-#elif MODE == 3
+#elif MODE == 0
 	std::cout << "Работаю в режиме тренировки" << '\n';
 #else
 	std::cout << "Неизвестный режим. Завершение работы" << '\n';
